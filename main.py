@@ -7,7 +7,7 @@ main.py – Orchestrates the end‑to‑end pipeline:
   3. Extract audio, transcribe with Groq’s Distil‑Whisper, and (optionally) tag
      speakers with a Groq chat‑completion call.
   4. Emit one Markdown file per meeting, ready for RAG ingestion.
-
+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
 Example:
     python main.py --months 24           # two‑year backlog
     python main.py --months 6 --skip-download --skip-transcribe
